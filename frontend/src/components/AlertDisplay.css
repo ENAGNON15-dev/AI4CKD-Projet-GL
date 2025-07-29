@@ -1,0 +1,36 @@
+.alert-list {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.alert-item {
+  border: 1px solid #ffcc00;
+  background-color: #fffacd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.alert-item.alert-active {
+  border-color: #ff6347; /* Tomate */
+  background-color: #ffe0d5; /* Couleur plus claire */
+}
+
+.alert-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #5cb85c; /* Vert */
+  color: white;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+.alert-item.alert-active .alert-badge {
+  background-color: #d9534f; /* Rouge */
+}
